@@ -1,0 +1,34 @@
+{
+    "name": "jdpro/zf2-assetic-i18n",
+    "description": "A few classes to add javascript internationalization feature to assetic",
+    "type": "library",
+    "license" : "GPL-2.0",
+    "keywords": [
+        "bus",
+        "zf2"
+    ],
+    "version":"0.0.1",
+    "authors": [
+                {
+                    "name": "Joachim Dornbusch",
+                    "email": "joachim.dornbusch@agroparistech.fr"
+                }
+            ],
+    "extra": {
+          "branch-alias": {
+                    "dev-master": "0.0.*-dev"
+          }
+    },       
+    "require": {
+        "php": ">=5.4",
+        "widmogrod/zf2-assetic-module": "1.*"
+    },
+    "autoload": {
+         "psr-0": {
+             "AsseticI18n": "src/"
+         },
+         "classmap": [
+             "./Module.php"
+         ]
+    }
+}
