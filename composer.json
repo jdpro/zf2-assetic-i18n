@@ -13,12 +13,7 @@
                     "name": "Joachim Dornbusch",
                     "email": "joachim.dornbusch@agroparistech.fr"
                 }
-            ],
-    "extra": {
-          "branch-alias": {
-                    "dev-master": "0.0.*"
-          }
-    },       
+            ],    
     "require": {
         "php": ">=5.4",
         "widmogrod/zf2-assetic-module": "1.*"
